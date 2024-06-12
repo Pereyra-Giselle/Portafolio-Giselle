@@ -403,3 +403,51 @@ textarea {
 }
 /* fin del main */
 
+
+
+.content-footer {
+    background-color: #1c1c1e;
+    text-align: center; 
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.social-icons{
+    margin-top: 25px;
+
+}
+
+.icon1{
+    margin-right: 40px;
+}
+
+
+.line-footer{
+    border-bottom: 1px solid rgba(115, 111, 111, 0.7);;
+    padding: 15px;
+}
+
+nav  {
+    list-style: none;
+    display: flex right;
+    padding-top: 15px;
+    padding-left: 100px;
+    margin-right: 100px;
+}
+
+nav a {
+    margin: 0 20px;
+    color: #d7d5d5f7;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 1s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
