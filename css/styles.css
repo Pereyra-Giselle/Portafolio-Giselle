@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(18% 28% at 15% 21%, #ff6363 26%, #F815A000 99%),radial-gradient(18% 28% at 92% 90%, #ff6363 0%, #F815A000 16%),radial-gradient(18% 28% at 90% 16%, #FAF080FF 3%, #073AFF00 93%),radial-gradient(18% 28% at 37% 83%, #636AF2FF 5%, #073AFF00 100%),radial-gradient(18% 28% at 95% 83%, #636AF2FF 3%, #073AFF00 8%),linear-gradient(125deg, #262221 95%, #262221 100%);
+    padding: 60px 0 0px ;
+   
+}
+
+nav  {
+    list-style: none;
+    display: flex right;
+    padding-left: 100px;
+}
+
+nav a {
+    margin: 0 20px;
+    color: #d7d5d5f7;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 1s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+ 
+
+.hero{
+   font-family: Arial, sans-serif; 
+    color: white;
+    display: flex;
+    height: 65vh; 
+    padding: 20px;
+    
+}
+
+.hero-content{
+    padding: 100px;
+    line-height: 50px; 
+}
+
+.hero h2{
+    color:#fff;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+span{
+    color: #ffffff; 
+    font-weight: bold;
+}
+
+
+.hero h1 {
+    color: #ff6363;
+    font-size: 60px; 
+    margin: 0; 
+}
+
+.hero p{
+    font-size: 20px;
+}
+
+
+
+.hero button {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 1s;
+}
+
+.hero button:hover {
+    background-color: #ff6363;
+    color:#fff;
+}
+
+
+.hero-img{
+    width: 500px;
+    height:  480px;
+    display: flex ;
+    mix-blend-mode:lighten;
+}
+
+/* fin del header */
+
