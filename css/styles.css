@@ -96,3 +96,310 @@ span{
 
 /* fin del header */
 
+.about{
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(18% 28% at 53% 40%, #ff6363 1%, #F815A000 77%),radial-gradient(18% 28% at 85% 69%, #FAF080FF 1%, #073AFF00 71%),radial-gradient(18% 28% at 17% 70%, #636AF2FF 0%, #073AFF00 76%),linear-gradient(1deg, #1b1e28 28%, #343434 100%);
+    height: 90vh; 
+    padding: 20px;
+    text-align: center;
+}
+
+.about h1{
+    color:#ffffff;
+    font-size: 50px;
+    font-family: Arial, sans-serif; 
+    padding: 40px;
+    padding-bottom: 100px;
+}
+
+.content-about{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.108), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(10px);    
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.653);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 40px;
+}
+
+.content-about p{
+    color:#afacac;
+    font-size: 30px;
+    font-family: Arial, sans-serif; 
+    line-height: 40px;
+}
+
+.Skill-section{
+    background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(18% 28% at 11% 4%, #ff6363 1%, #F815A000 94%),radial-gradient(18% 28% at 89% 56%, #ff6363 7%, #F815A000 89%),radial-gradient(18% 28% at 61% 27%, #FAF080FF 1%, #073AFF00 93%),radial-gradient(18% 28% at 23% 71%, #636AF2FF 1%, #073AFF00 99%),linear-gradient(125deg, #262221 95%, #262221 100%);
+    font-family: Arial, sans-serif; /* Familia de fuente */
+    color: white;
+    display: flex;
+    padding: 100px;
+}
+
+.content-myskills{
+    display: flex;
+    text-align: left;
+    width: 1000px;
+    padding: 50px;
+
+}
+
+
+.myskills h1 {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.myskills p {
+    padding: 15px;
+    font-size: 20px;
+    color: #cccccc;
+    line-height: 25px;
+}
+
+.content-skills {
+    padding:35px;
+    display: grid;
+    gap: 20px;
+}
+
+
+
+.skill {
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.653);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.108), rgba(255, 255, 255, 0.108));
+    backdrop-filter: blur(10px);
+}
+
+.s1{
+   margin-right: 50px;
+}
+
+.s2{
+    margin-left: 50px;
+}
+
+.skill, .icon {
+    height: 40px;
+    padding-right: 30px;
+}
+
+
+
+.skill h3 {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.skill p {
+    margin: 5px 0 0 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+.experience {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+.experience p {
+    font-size: 15px;
+    color: #cccccc;
+}
+
+.years {
+   display: flex ;
+   margin-right: 150px;
+}
+
+.years-h3{
+    color: orange;
+    font-size: 70px;
+}
+
+.job{
+    display: flex;
+}
+
+.job-h3{
+    color: yellow;
+    font-size: 70px;
+}
+
+.content-project{
+    background-color: #343434;
+    background-image: linear-gradient(160deg, #343434 0%, #2c2c2e 50%, #1b1e28 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 100px;
+    font-size: 25px;
+    
+}
+
+.p0{
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+    margin: 20px;
+    margin-top: 80px;
+    margin-right: 150px;
+}
+
+.p0 h2{
+    color: #fff;
+    margin-left: 10px;
+
+}
+
+.p0 p{
+    color: rgba(255, 255, 255, 0.7);
+    padding: 8px;
+    line-height: 35px;
+    margin-top: 25px;
+    
+}
+
+.line-p0{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);;
+    padding: 75px;
+}
+
+.project {
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+    padding-top: 15px;
+    margin: 30px;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.108), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(10px);    
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.653);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.project-img {
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+
+.text {
+    padding-bottom: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ffff;
+}
+
+
+.project:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.108), rgba(36, 58, 105, 0.577));
+    
+}
+
+.next{
+    margin-left: 15px;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+
+.next:hover{
+    background:  #ff6363;
+    border-radius: 2px;
+}
+
+.content-form{
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(18% 28% at 45% 35%, #ff6363 7%, #F815A000 89%),radial-gradient(18% 28% at 73% 47%, #FAF080FF 1%, #073AFF00 72%),radial-gradient(18% 28% at 45% 73%, #636AF2FF 1%, #073AFF00 74%),linear-gradient(125deg, #262221 95%, #262221 100%);
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  
+}
+
+.textform{
+    padding: 150px;
+    text-align: left;
+    width: 300px;
+}
+
+.textform h1{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 40px;
+}
+
+.textform p{
+    color:#afacac;
+    font-size: 25px;
+    font-family: Arial, sans-serif; 
+    margin-top: 35px;
+}
+
+
+.formu {
+    width: 500px;
+    margin-left: 50px;
+
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border: solid 1px #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    background: rgba(42, 41, 41, 0.536);
+    border: none;
+    padding: 15px;
+    margin-bottom: 20px;
+   
+}
+
+input::placeholder, textarea::placeholder {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.button-form {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer;
+    width: 90px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    transition: background-color 1s;
+}
+
+.button-form:hover {
+    background-color: #ff6363;
+    color:#fff;
+}
+/* fin del main */
+
